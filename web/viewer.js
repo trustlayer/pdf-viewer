@@ -1730,7 +1730,7 @@ var PDFViewerApplication = {
 exports.PDFViewerApplication = PDFViewerApplication;
 var validateFileURL;
 {
-  var HOSTED_VIEWER_ORIGINS = ['null', 'http://localhost:3000', 'https://stage.app.trustlayer.io', 'https://app.trustlayer.io'];
+  var HOSTED_VIEWER_ORIGINS = ['null', 'https://trustlayer.github.io'];
 
   validateFileURL = function validateFileURL(file) {
     if (file === undefined) {
